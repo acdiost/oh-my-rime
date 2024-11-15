@@ -14,3 +14,7 @@ build
 
 # VSCode 项目文件
 *.code-workspace
+
+# 同步文件
+trash
+sync
