@@ -1,3 +1,13 @@
+基于上游版本，新增了：
+
+- 自定义的输入法皮肤，macOS 护眼浅色和深色配置文件：`squirrel.custom.yaml`
+- 默认配置文件：`default.custom.yaml`
+- 修改文件权限
+- 修改小鹤双拼方案配置每页候选词数为：`page_size: 9`
+- 修改忽略文件，增加 `sync` 和 `trash` 目录
+
+---
+
 ![样式](https://www.mintimate.cc/image/demo/guide.webp)
 
 - [中文 - 简体简介](README.md)
