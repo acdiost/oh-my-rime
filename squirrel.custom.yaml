@@ -43,13 +43,13 @@ patch:
   # 皮肤列表
   preset_color_schemes:
     macos_light:
-      name: "MacOS 浅色／MacOS Light"
-      author: 小码哥
-      font_face: "PingFangSC"          # 字体及大小
+      name: "MacOS 护眼浅色／MacOS Light"
+      author: Acdiost
+      font_face: "LXGW WenKai"          # 字体及大小
       font_point: 16
-      label_font_face: "PingFangSC"    # 序号字体及大小
+      label_font_face: "LXGW WenKai"    # 序号字体及大小
       label_font_point: 12
-      comment_font_face: "PingFangSC"  # 注字体及大小
+      comment_font_face: "LXGW WenKai"  # 注字体及大小
       comment_font_point: 16
       candidate_format: "%c\u2005%@\u2005" # 编号 %c 和候选词 %@ 前后的空间
       candidate_list_layout: linear   # 候选排布：层叠 stacked | 行 linear
@@ -68,29 +68,27 @@ patch:
       alpha: 1                       # 透明度，0~1
       spacing: 10                    # 拼音与候选项之间的距离 （inline_preedit: false）
       color_space: srgb                       # 色彩空间： srgb | display_p3
-      back_color: 0xFFFFFF                    # 底色
-      hilited_candidate_back_color: 0xD75A00  # 选中底色
-      label_color: 0x999999                   # 序号颜色
-      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
-      candidate_text_color: 0x3c3c3c          # 文字颜色
-      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
-      comment_text_color: 0x999999            # 注颜色
-      hilited_comment_text_color: 0xFFFFFF    # 选中注颜色
-      text_color: 0x424242                    # 拼音颜色 （inline_preedit: false）
-      hilited_text_color: 0xFFFFFF            # 选中拼音颜色 （inline_preedit: false）
-      candidate_back_color: 0xFFFFFF          # 候选项底色
-      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
-      hilited_back_color: 0xD75A00            # 选中拼音底色 （inline_preedit: false）
-      border_color: 0xFFFFFF                  # 外边框颜色
+      back_color: 0xF7F3E9                    # 温和的浅黄色背景
+      hilited_candidate_back_color: 0xA1CDA8  # 选中绿色背景
+      label_color: 0x6E6E6E                   # 序号灰色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号白色
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字白色
+      comment_text_color: 0x7A7A7A            # 注释灰色
+      hilited_comment_text_color: 0xFFFFFF    # 选中注释白色
+      text_color: 0x525252                    # 拼音颜色深灰
+      hilited_text_color: 0xFFFFFF            # 选中拼音颜色白色
+      candidate_back_color: 0xF7F3E9          # 候选项浅黄色
+      hilited_back_color: 0xA1CDA8            # 选中拼音绿色背景
+      border_color: 0xEAE6DA                  # 边框颜色浅米色
   
     macos_dark:
-      name: "MacOS 深色／MacOS Dark"
-      author: 小码哥
-      font_face: "PingFangSC"          # 字体及大小
+      name: "MacOS 护眼深色／MacOS Dark"
+      author: Acdiost
+      font_face: "LXGW WenKai"          # 字体及大小
       font_point: 16
-      label_font_face: "PingFangSC"    # 序号字体及大小
+      label_font_face: "LXGW WenKai"    # 序号字体及大小
       label_font_point: 12
-      comment_font_face: "PingFangSC"  # 注字体及大小
+      comment_font_face: "LXGW WenKai"  # 注字体及大小
       comment_font_point: 16
       candidate_format: "%c\u2005%@\u2005" # 编号 %c 和候选词 %@ 前后的空间
       candidate_list_layout: linear   # 候选排布：层叠 stacked | 行 linear
@@ -109,17 +107,16 @@ patch:
       alpha: 1                       # 透明度，0~1
       spacing: 10                    # 拼音与候选项之间的距离 （inline_preedit: false）
       color_space: srgb                       # 色彩空间： srgb | display_p3
-      back_color: 0x1f1e2d                  # 底色
-      hilited_candidate_back_color: 0xD75A00  # 选中底色
-      label_color: 0x999999                   # 序号颜色
-      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
-      candidate_text_color: 0xe9e9ea          # 文字颜色
-      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
-      comment_text_color: 0x999999            # 注颜色
-      hilited_comment_text_color: 0x999999    # 选中注颜色
-      text_color: 0x808080                    # 拼音颜色 （inline_preedit: false）
-      hilited_text_color: 0xFFFFFF            # 选中拼音颜色 （inline_preedit: false）
-      candidate_back_color: 0x1f1e2d          # 候选项底色
-      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
-      hilited_back_color: 0xD75A00            # 选中拼音底色 （inline_preedit: false）
-      border_color: 0x050505                  # 外边框颜色
+      back_color: 0x2B2E33                    # 深灰背景
+      hilited_candidate_back_color: 0x3D8361  # 选中柔和绿色背景
+      label_color: 0xAAAAAA                   # 序号灰色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号白色
+      candidate_text_color: 0xD1D1D1          # 候选文字浅灰
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字白色
+      comment_text_color: 0x8C8C8C            # 注释灰色
+      hilited_comment_text_color: 0xFFFFFF    # 选中注释白色
+      text_color: 0xBBBBBB                    # 拼音颜色浅灰
+      hilited_text_color: 0xFFFFFF            # 选中拼音颜色白色
+      candidate_back_color: 0x2B2E33          # 候选项背景深灰
+      hilited_back_color: 0x3D8361            # 选中拼音背景柔和绿
+      border_color: 0x1F1F1F                  # 边框颜色深灰
